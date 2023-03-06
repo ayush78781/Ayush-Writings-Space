@@ -1,0 +1,28 @@
+site_name: Ayush Cool Writings
+repo_url: https://github.com/example/repository/
+nav:
+    - Home: 'index.md'
+    - 'User Guide':
+        - 'Contributing-Guidelines': 'contributing-guidelines.md'
+        - 'Getting-Started': 'getting-started.md'
+    - About: 'about.md'
+    - Initiatives: 'initiatives.md'
+    - License: 'license.md'
+    - Products: 'products.md'
+    - Services: 'services.md'
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+        baselevel: 2
+        separator: "_"
+theme:
+    name: mkdocs
+    nav_style: dark
+    shortcuts:
+        help: 191    # ?
+        next: 78     # n
+        previous: 80 # p
+        search: 83   # s
+    site_name: 'logo.jpg'
+    locale: en

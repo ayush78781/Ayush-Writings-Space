@@ -1,5 +1,6 @@
 site_name: Ayush Cool Writings
-repo_url: https://github.com/example/repository/
+repo_url: https://github.com/ayush78781/Ayush-Writings-Space/
+edit_uri_template: '{path_noext}/_edit'
 nav:
     - Home: 'index.md'
     - 'User Guide':

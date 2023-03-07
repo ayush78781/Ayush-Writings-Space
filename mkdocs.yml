@@ -33,3 +33,8 @@ theme:
         search: 83   # s
     site_name: 'logo.jpg'
     locale: en
+
+copyright: Copyright &copy; 2023 <a href="https://twitter.com/">Ayush Saxena</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">Ayush's Space</a>.
+
+watch:
+    - mkdocs

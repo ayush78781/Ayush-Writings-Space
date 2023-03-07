@@ -1,11 +1,16 @@
 site_name: Ayush Cool Writings
+site_url: https://www.ayush-writings-space.com/
+site_description: Project documentation with Markdown.
+site_author: Ayush Saxena
+
 repo_url: https://github.com/ayush78781/Ayush-Writings-Space/
-edit_uri_template: '{path_noext}/_edit'
+edit_uri: blob/master/docs/
+
 nav:
     - Home: 'index.md'
-    - 'User Guide':
-        - 'Contributing-Guidelines': 'contributing-guidelines.md'
-        - 'Getting-Started': 'getting-started.md'
+    - User Guide:
+        - Contributing-Guidelines: 'contributing-guidelines.md'
+        - Getting-Started: 'getting-started.md'
     - About: 'about.md'
     - Initiatives: 'initiatives.md'
     - License: 'license.md'
@@ -20,6 +25,7 @@ markdown_extensions:
 theme:
     name: mkdocs
     nav_style: dark
+    highlightjs: true
     shortcuts:
         help: 191    # ?
         next: 78     # n

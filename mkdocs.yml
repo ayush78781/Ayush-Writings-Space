@@ -8,14 +8,14 @@ edit_uri: blob/main/docs/
 
 nav:
     - Home: 'index.md'
-    - User Guide:
-        - Contributing-Guidelines: 'contributing-guidelines.md'
-        - Getting-Started: 'getting-started.md'
     - About: 'about.md'
     - Initiatives: 'initiatives.md'
     - License: 'license.md'
     - Products: 'products.md'
     - Services: 'services.md'
+    - User Guide: 
+       - Getting Started: 'user-guide/getting-started.md'
+       - Contribuiting Guidelines: 'user-guide/contributing-guidelines.md'
 
 markdown_extensions:
     - toc:

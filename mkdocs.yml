@@ -1,6 +1,6 @@
 site_name: Ayush Cool Writings
 site_url: https://www.ayush-writings-space.com/
-site_description: Project documentation with Markdown.
+site_description: Ayush Project documentation with Markdown.
 site_author: Ayush Saxena
 
 repo_url: https://github.com/ayush78781/Ayush-Writings-Space/
@@ -20,8 +20,7 @@ nav:
 markdown_extensions:
     - toc:
         permalink: "#"
-        baselevel: 2
-        separator: "_"
+    
 theme:
     name: mkdocs
     nav_style: dark
